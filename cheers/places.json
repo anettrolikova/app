@@ -1,0 +1,207 @@
+{
+  "_comment": "TODO: Populate this file from the KML export of https://maps.app.goo.gl/A6U1fUAVHt3YEKeP9. See README.md for instructions.",
+  "_kmlSource": "https://maps.app.goo.gl/A6U1fUAVHt3YEKeP9",
+  "_lastUpdated": "2024-01-01",
+  "places": [
+    {
+      "name": "Eska",
+      "description": "Farm-to-table restaurant in a converted bakery with sourdough bread, seasonal Czech cuisine, and one of Karlín's best brunches.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Eska+Prague+Karlin",
+      "tags": ["brunch", "seasonal", "sourdough", "czech"],
+      "priceRange": "fancy",
+      "mealTypes": ["breakfast", "lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "karlin"
+    },
+    {
+      "name": "Můj šálek kávy",
+      "description": "Specialty coffee pioneer in Prague with excellent single-origin brews, a cozy atmosphere, and plenty of space to work.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Muj+salek+kavy+Prague",
+      "tags": ["coffee", "specialty", "cowork", "wifi"],
+      "priceRange": "mid",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "karlin"
+    },
+    {
+      "name": "Café Jen",
+      "description": "Relaxed neighbourhood café with good coffee, homemade cakes, and a welcoming vibe perfect for working from.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Cafe+Jen+Karlin+Prague",
+      "tags": ["coffee", "cakes", "cowork", "wifi"],
+      "priceRange": "budget",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "karlin"
+    },
+    {
+      "name": "Bistro 8",
+      "description": "Beloved Karlín lunch spot serving fresh daily specials, sandwiches, and salads in a no-frills, friendly setting.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Bistro+8+Karlin+Prague",
+      "tags": ["lunch", "daily-specials", "casual"],
+      "priceRange": "budget",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": false,
+      "neighbourhood": "karlin"
+    },
+    {
+      "name": "Krásný ztráty",
+      "description": "Charming neighbourhood restaurant in Karlín with creative Czech-inspired cuisine and a great wine selection.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Krasny+ztraty+Prague",
+      "tags": ["czech", "wine", "dinner"],
+      "priceRange": "mid",
+      "mealTypes": ["lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "karlin"
+    },
+    {
+      "name": "Café Savoy",
+      "description": "Grand Viennese-style café in Smíchov serving exceptional breakfasts, pastries, and lunches in a stunning Art Nouveau hall.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Cafe+Savoy+Prague",
+      "tags": ["brunch", "pastries", "grand", "traditional"],
+      "priceRange": "fancy",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": false,
+      "neighbourhood": "old-town"
+    },
+    {
+      "name": "Sisters",
+      "description": "Tiny spot near Old Town Square famous for open-faced sandwiches (chlebíčky) — the best quick Czech bite in the city.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Sisters+bistro+Prague+Old+Town",
+      "tags": ["czech", "sandwiches", "quick-bite"],
+      "priceRange": "budget",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": false,
+      "neighbourhood": "old-town"
+    },
+    {
+      "name": "Café Imperial",
+      "description": "Iconic 1914 café with original mosaic-tiled walls, serving classic breakfasts and Czech cuisine in a breathtaking setting.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Cafe+Imperial+Prague",
+      "tags": ["historic", "brunch", "czech", "grand"],
+      "priceRange": "fancy",
+      "mealTypes": ["breakfast", "lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "old-town"
+    },
+    {
+      "name": "Lokál Dlouhááá",
+      "description": "Buzzing Czech pub with tank-fresh Pilsner Urquell, classic svíčková, and a lively crowd — the real Prague experience.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Lokal+Dlouhaa+Prague",
+      "tags": ["czech", "pub", "beer", "svickova"],
+      "priceRange": "mid",
+      "mealTypes": ["lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "old-town"
+    },
+    {
+      "name": "EMA Espresso Bar",
+      "description": "Compact specialty coffee bar in Old Town with some of Prague's best espresso and a loyal local following.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=EMA+Espresso+Bar+Prague",
+      "tags": ["coffee", "specialty", "espresso", "cowork"],
+      "priceRange": "mid",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "old-town"
+    },
+    {
+      "name": "Café Letka",
+      "description": "Neighbourhood gem in Letná with excellent coffee, homemade food, and a sunny terrace — locals' first choice for weekend brunch.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Cafe+Letka+Prague+Letna",
+      "tags": ["brunch", "coffee", "terrace", "cowork"],
+      "priceRange": "mid",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "holesovice-letna"
+    },
+    {
+      "name": "Cobra",
+      "description": "Relaxed all-day bar and restaurant in Holešovice with creative small plates, natural wine, and a neighbourhood crowd.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Cobra+Prague+Holesovice",
+      "tags": ["small-plates", "natural-wine", "casual"],
+      "priceRange": "mid",
+      "mealTypes": ["lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "holesovice-letna"
+    },
+    {
+      "name": "La Bohème Café",
+      "description": "Spacious, light-filled café in Letná that's a favourite with freelancers — great flat whites and a calm working atmosphere.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=La+Boheme+Cafe+Prague+Letna",
+      "tags": ["coffee", "cowork", "wifi", "brunch"],
+      "priceRange": "mid",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "holesovice-letna"
+    },
+    {
+      "name": "Fofola",
+      "description": "Cool café-bar in Holešovice with excellent coffee, light bites, and a laid-back vibe beloved by the creative scene.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Fofola+Prague+Holesovice",
+      "tags": ["coffee", "cowork", "casual", "wifi"],
+      "priceRange": "budget",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "holesovice-letna"
+    },
+    {
+      "name": "Dish",
+      "description": "Modern restaurant in Holešovice with an inventive seasonal menu, open kitchen, and one of Prague's better tasting menus.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Dish+restaurant+Prague+Holesovice",
+      "tags": ["modern", "seasonal", "tasting-menu"],
+      "priceRange": "fancy",
+      "mealTypes": ["lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "holesovice-letna"
+    },
+    {
+      "name": "Café V lese",
+      "description": "Quirky, art-filled café in Žižkov with cheap coffee, board games, and a bohemian atmosphere — zero pretension.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Cafe+V+lese+Prague+Zizkov",
+      "tags": ["coffee", "bohemian", "casual", "cowork"],
+      "priceRange": "budget",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "vinohrady-zizkov"
+    },
+    {
+      "name": "Vinohradský parlament",
+      "description": "Traditional Czech pub-restaurant in Vinohrady that locals love for honest food, good beer, and no tourist markup.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Vinohradsky+parlament+Prague",
+      "tags": ["czech", "pub", "traditional", "lunch"],
+      "priceRange": "budget",
+      "mealTypes": ["lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "vinohrady-zizkov"
+    },
+    {
+      "name": "Las Adelitas",
+      "description": "Authentic Mexican in Vinohrady with proper tacos, mezcal, and a lively atmosphere — a refreshing change from Czech classics.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Las+Adelitas+Prague+Vinohrady",
+      "tags": ["mexican", "tacos", "casual"],
+      "priceRange": "mid",
+      "mealTypes": ["lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "vinohrady-zizkov"
+    },
+    {
+      "name": "Kavárna Jedna",
+      "description": "Minimalist specialty coffee café in Vinohrady with fast wifi, communal tables, and a calm focus — built for laptop work.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Kavarna+Jedna+Prague+Vinohrady",
+      "tags": ["coffee", "cowork", "wifi", "specialty"],
+      "priceRange": "mid",
+      "mealTypes": ["breakfast", "lunch"],
+      "laptopFriendly": true,
+      "neighbourhood": "vinohrady-zizkov"
+    },
+    {
+      "name": "Aromi",
+      "description": "Prague's most celebrated Italian restaurant in Vinohrady — exceptional pasta and fish, elegant but unfussy.",
+      "googleMapsUrl": "https://maps.google.com/maps?q=Aromi+restaurant+Prague+Vinohrady",
+      "tags": ["italian", "pasta", "elegant"],
+      "priceRange": "fancy",
+      "mealTypes": ["lunch", "dinner"],
+      "laptopFriendly": false,
+      "neighbourhood": "vinohrady-zizkov"
+    }
+  ]
+}
