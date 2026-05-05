@@ -1,2 +1,2 @@
-# app
-PRG
+# Cheers
+Prague recs app
