@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#C1694F" />
+  <meta name="description" content="Find your perfect Prague restaurant or café in 3 quick steps." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Cheers!" />
+
+  <title>Cheers! — Prague Restaurant Finder</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥂</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── App Shell ── -->
+  <div id="app">
+
+    <!-- Start Screen -->
+    <section id="screen-start" class="screen screen--active" aria-label="Welcome">
+      <div class="start__inner">
+        <div class="start__logo" aria-hidden="true">🥂</div>
+        <h1 class="start__title">Cheers!</h1>
+        <p class="start__subtitle">Your personal Prague<br>restaurant &amp; café guide.</p>
+        <button class="btn btn--primary" id="btn-start">Find my place</button>
+        <p class="start__hint">3 quick questions. One great pick.</p>
+      </div>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="screen-quiz" class="screen" aria-label="Quiz" aria-live="polite">
+      <div class="quiz__header">
+        <button class="btn btn--ghost btn--icon" id="btn-back" aria-label="Go back">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="1" aria-valuemax="3">
+          <div class="progress__dots">
+            <span class="progress__dot" data-step="1"></span>
+            <span class="progress__dot" data-step="2"></span>
+            <span class="progress__dot" data-step="3"></span>
+          </div>
+          <span class="progress__label" id="progress-label">1 / 3</span>
+        </div>
+        <!-- spacer to centre the progress -->
+        <div style="width: 40px"></div>
+      </div>
+
+      <div class="quiz__body">
+        <h2 class="quiz__question" id="quiz-question"></h2>
+        <ul class="quiz__options" id="quiz-options" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- Result Screen -->
+    <section id="screen-result" class="screen" aria-label="Your recommendation" aria-live="polite">
+      <div class="result__header">
+        <p class="result__eyebrow" id="result-eyebrow">Your pick</p>
+        <h2 class="result__name" id="result-name"></h2>
+      </div>
+
+      <div class="result__card">
+        <p class="result__description" id="result-description"></p>
+
+        <div class="result__meta">
+          <span class="pill pill--price" id="result-price" aria-label="Price range"></span>
+          <span class="pill pill--neighbourhood" id="result-neighbourhood"></span>
+        </div>
+
+        <div class="result__tags" id="result-tags" aria-label="Occasion tags"></div>
+      </div>
+
+      <div class="result__actions">
+        <a class="btn btn--primary" id="result-maps-link" href="#" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M9 1C6.24 1 4 3.24 4 6c0 3.75 5 11 5 11s5-7.25 5-11c0-2.76-2.24-5-5-5zm0 6.75A1.75 1.75 0 1 1 9 4.25a1.75 1.75 0 0 1 0 3.5z" fill="currentColor"/>
+          </svg>
+          Take me there
+        </a>
+        <button class="btn btn--ghost" id="btn-retry">Try again</button>
+      </div>
+    </section>
+
+    <!-- Error Screen -->
+    <section id="screen-error" class="screen" aria-label="Error" aria-live="assertive">
+      <div class="error__inner">
+        <div class="error__icon" aria-hidden="true">😕</div>
+        <h2 class="error__title">Something went wrong</h2>
+        <p class="error__message" id="error-message">Could not load places data.</p>
+        <button class="btn btn--primary" id="btn-reload">Try again</button>
+      </div>
+    </section>
+
+  </div><!-- /#app -->
+
+  <script src="app.js"></script>
+</body>
+</html>
